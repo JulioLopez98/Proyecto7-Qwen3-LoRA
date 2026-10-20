@@ -1,0 +1,20 @@
+
+# Entorno virtual de Python
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Modelo entrenado y checkpoints locales
+modelo_lora/
+
+# Archivos con credenciales o variables privadas
+.env
+.env.*
+!.env.example
+
+# Archivos temporales del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
